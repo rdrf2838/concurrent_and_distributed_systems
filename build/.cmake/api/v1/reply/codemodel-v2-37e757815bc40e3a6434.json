@@ -1,0 +1,410 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10,
+						13
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "folder_concurrency_patterns",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns"
+				},
+				{
+					"build" : "folder_concurrency_patterns/source",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns/source",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "folder_concurrency_patterns/app_producer_consumer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns/app_producer_consumer",
+					"targetIndexes" : 
+					[
+						10,
+						14
+					]
+				},
+				{
+					"build" : "folder_concurrency_patterns/app_monitor_mrsw",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns/app_monitor_mrsw",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "folder_concurrency_patterns/app_sleepmutex",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns/app_sleepmutex",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "folder_concurrency_patterns/app_multiple_writers",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns/app_multiple_writers",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "folder_concurrency_patterns/app_semaphore_mrsw",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns/app_semaphore_mrsw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "folder_concurrency_patterns/app_occ",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns/app_occ",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "folder_concurrency_patterns/test_occ",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "folder_concurrency_patterns/test_occ",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "folder_ipc_primitives",
+					"childIndexes" : 
+					[
+						11,
+						12
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "folder_ipc_primitives"
+				},
+				{
+					"build" : "folder_ipc_primitives/app_shared_memory",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "folder_ipc_primitives/app_shared_memory",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "folder_ipc_primitives/app_memory_mapped_file",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "folder_ipc_primitives/app_memory_mapped_file",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "folder_multithreading_primitives",
+					"childIndexes" : 
+					[
+						14,
+						15
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "folder_multithreading_primitives"
+				},
+				{
+					"build" : "folder_multithreading_primitives/app_basics",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "folder_multithreading_primitives/app_basics",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "folder_multithreading_primitives/app_daytime",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 0,
+					"source" : "folder_multithreading_primitives/app_daytime",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					],
+					"name" : "concurrent_and_distributed_systems",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 15,
+					"id" : "daytime_client::@38c0bb09f3b090bccde2",
+					"jsonFile" : "target-daytime_client-Debug-a11c556a165740af5e65.json",
+					"name" : "daytime_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "daytime_server::@38c0bb09f3b090bccde2",
+					"jsonFile" : "target-daytime_server-Debug-a831b0812e5158a7b8fb.json",
+					"name" : "daytime_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "mmap_file::@942410100be08e98dec2",
+					"jsonFile" : "target-mmap_file-Debug-2293b78f3aa90b9ad043.json",
+					"name" : "mmap_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "monitor::@403dec52bcb61275f1c5",
+					"jsonFile" : "target-monitor-Debug-867409b4c4c5498e4c76.json",
+					"name" : "monitor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "mrsw_semaphore::@421e159d11eb3dd7baec",
+					"jsonFile" : "target-mrsw_semaphore-Debug-2a5cfc3eaedeb3e7fe82.json",
+					"name" : "mrsw_semaphore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "multiple_writers::@51ef0a101e2808ac2068",
+					"jsonFile" : "target-multiple_writers-Debug-e5a773b2f83aebcc5d47.json",
+					"name" : "multiple_writers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "multithreading_project::@abfe8fd8bb17f983b2a4",
+					"jsonFile" : "target-multithreading_project-Debug-05edde650189439fa03a.json",
+					"name" : "multithreading_project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "occ::@8c87334f7bf26f57c9ed",
+					"jsonFile" : "target-occ-Debug-fba41138073aafe6014c.json",
+					"name" : "occ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "occ_main::@8c87334f7bf26f57c9ed",
+					"jsonFile" : "target-occ_main-Debug-00db4c0648c53b9ca3c6.json",
+					"name" : "occ_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "patterns::@0b961172a07b4d188fd4",
+					"jsonFile" : "target-patterns-Debug-a30db43b7f298531d7d9.json",
+					"name" : "patterns",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "reader::@1bc9246afda8424bb78c",
+					"jsonFile" : "target-reader-Debug-c1a56c224d01422a5617.json",
+					"name" : "reader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "shared_memory::@494a3c67b8d43d10664a",
+					"jsonFile" : "target-shared_memory-Debug-80ae36d61a0eca81492f.json",
+					"name" : "shared_memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "sleepmutex::@24711afda721677a8254",
+					"jsonFile" : "target-sleepmutex-Debug-eb2f392f63d78c489096.json",
+					"name" : "sleepmutex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "test_occ::@582bc92dfeb745d99fcb",
+					"jsonFile" : "target-test_occ-Debug-02cb81300f8b361fcc24.json",
+					"name" : "test_occ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "writer::@1bc9246afda8424bb78c",
+					"jsonFile" : "target-writer-Debug-dde8c001f73d59f66e5c.json",
+					"name" : "writer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build",
+		"source" : "/home/ivin/CLionProjects/concurrent_and_distributed_systems"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

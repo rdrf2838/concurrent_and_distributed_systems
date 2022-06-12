@@ -1,0 +1,2 @@
+add_subdirectory(app_basics)
+add_subdirectory(app_daytime)

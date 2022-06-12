@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpatterns.a CMakeFiles/patterns.dir/semaphore.cpp.o
+/usr/bin/ranlib libpatterns.a

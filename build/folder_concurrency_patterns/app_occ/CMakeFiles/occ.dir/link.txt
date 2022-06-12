@@ -1,0 +1,2 @@
+/bin/x86_64-linux-gnu-ar qc libocc.a CMakeFiles/occ.dir/occ.cpp.o
+/bin/x86_64-linux-gnu-ranlib libocc.a

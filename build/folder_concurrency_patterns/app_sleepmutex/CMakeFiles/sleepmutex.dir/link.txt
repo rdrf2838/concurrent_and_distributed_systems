@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-10 -g CMakeFiles/sleepmutex.dir/sleepmutex.cpp.o -o sleepmutex  -lrt -pthread 

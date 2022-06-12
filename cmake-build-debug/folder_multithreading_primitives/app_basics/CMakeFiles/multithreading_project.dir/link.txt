@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/multithreading_project.dir/main.cpp.o -o multithreading_project  -Wl,-rpath,/home/ivin/CLionProjects/boost_1_78_0/stage/lib /home/ivin/CLionProjects/boost_1_78_0/stage/lib/libboost_thread.so.1.78.0 -pthread 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libocc.a CMakeFiles/occ.dir/occ.cpp.o
+/usr/bin/ranlib libocc.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_occ.dir/test_occ.cpp.o -o test_occ  -Wl,-rpath,/home/ivin/CLionProjects/boost_1_78_0/lib /home/ivin/CLionProjects/boost_1_78_0/lib/libboost_unit_test_framework.so.1.78.0 ../app_occ/libocc.a -pthread 

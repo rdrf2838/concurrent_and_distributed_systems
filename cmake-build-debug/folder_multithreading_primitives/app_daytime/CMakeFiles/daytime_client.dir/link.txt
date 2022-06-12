@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/daytime_client.dir/daytime_client.cpp.o -o daytime_client  -pthread 

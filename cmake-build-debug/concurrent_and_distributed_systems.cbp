@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="concurrent_and_distributed_systems"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\boost_1_78_0\;CMake Files\..\boost_1_78_0\stage\;CMake Files\..\boost_1_78_0\stage\lib\;CMake Files\..\boost_1_78_0\stage\lib\cmake\;CMake Files\..\boost_1_78_0\stage\lib\cmake\Boost-1.78.0\;CMake Files\..\boost_1_78_0\stage\lib\cmake\boost_headers-1.78.0\;CMake Files\..\boost_1_78_0\stage\lib\cmake\boost_thread-1.78.0\;CMake Files\..\boost_1_78_0\lib\;CMake Files\..\boost_1_78_0\lib\cmake\;CMake Files\..\boost_1_78_0\lib\cmake\boost_unit_test_framework-1.78.0\;CMake Files\folder_concurrency_patterns\;CMake Files\folder_concurrency_patterns\source\;CMake Files\folder_concurrency_patterns\app_producer_consumer\;CMake Files\folder_concurrency_patterns\app_monitor_mrsw\;CMake Files\folder_concurrency_patterns\app_sleepmutex\;CMake Files\folder_concurrency_patterns\app_multiple_writers\;CMake Files\folder_concurrency_patterns\app_semaphore_mrsw\;CMake Files\folder_concurrency_patterns\app_occ\;CMake Files\folder_concurrency_patterns\test_occ\;CMake Files\folder_ipc_primitives\;CMake Files\folder_ipc_primitives\app_shared_memory\;CMake Files\folder_ipc_primitives\app_memory_mapped_file\;CMake Files\folder_multithreading_primitives\;CMake Files\folder_multithreading_primitives\app_basics\;CMake Files\folder_multithreading_primitives\app_daytime\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="patterns">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/libpatterns.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/Makefile&quot;  VERBOSE=1 patterns"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="patterns/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/libpatterns.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/Makefile&quot;  VERBOSE=1 patterns/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/source/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="writer">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/writer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 writer"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="writer/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/writer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 writer/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reader">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/reader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 reader"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reader/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/reader" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 reader/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_producer_consumer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitor">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/monitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/Makefile&quot;  VERBOSE=1 monitor"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitor/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/monitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/Makefile&quot;  VERBOSE=1 monitor/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_monitor_mrsw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sleepmutex">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/sleepmutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/Makefile&quot;  VERBOSE=1 sleepmutex"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sleepmutex/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/sleepmutex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/Makefile&quot;  VERBOSE=1 sleepmutex/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_sleepmutex/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multiple_writers">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/multiple_writers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_multiple_writers/../include"/>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/Makefile&quot;  VERBOSE=1 multiple_writers"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multiple_writers/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/multiple_writers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_multiple_writers/../include"/>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/Makefile&quot;  VERBOSE=1 multiple_writers/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_multiple_writers/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mrsw_semaphore">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/mrsw_semaphore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/../include"/>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/Makefile&quot;  VERBOSE=1 mrsw_semaphore"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mrsw_semaphore/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/mrsw_semaphore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/../include"/>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/Makefile&quot;  VERBOSE=1 mrsw_semaphore/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_semaphore_mrsw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="occ_main">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/occ_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 occ_main"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="occ_main/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/occ_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 occ_main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="occ">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/libocc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 occ"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="occ/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/libocc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 occ/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/app_occ/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_occ">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/test_occ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/test_occ/../app_occ/occ.h}"/>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/Makefile&quot;  VERBOSE=1 test_occ"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_occ/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/test_occ" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB"/>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add directory="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/test_occ/../app_occ/occ.h}"/>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0/include"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/Makefile&quot;  VERBOSE=1 test_occ/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_concurrency_patterns/test_occ/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_memory">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/shared_memory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/Makefile&quot;  VERBOSE=1 shared_memory"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shared_memory/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/shared_memory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/Makefile&quot;  VERBOSE=1 shared_memory/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_shared_memory/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmap_file">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/mmap_file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/Makefile&quot;  VERBOSE=1 mmap_file"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmap_file/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/mmap_file" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/Makefile&quot;  VERBOSE=1 mmap_file/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_ipc_primitives/app_memory_mapped_file/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multithreading_project">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/multithreading_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/Makefile&quot;  VERBOSE=1 multithreading_project"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="multithreading_project/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/multithreading_project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_THREAD_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/Makefile&quot;  VERBOSE=1 multithreading_project/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_basics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daytime_server">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/daytime_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 daytime_server"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daytime_server/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/daytime_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 daytime_server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daytime_client">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/daytime_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 daytime_client"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="daytime_client/fast">
+				<Option output="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/daytime_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/ivin/CLionProjects/boost_1_78_0"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 daytime_client/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/home/ivin/CLionProjects/concurrent_and_distributed_systems/cmake-build-debug/folder_multithreading_primitives/app_daytime/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_monitor_mrsw/monitor.cpp">
+			<Option target="monitor"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_multiple_writers/main_semaphore.cpp">
+			<Option target="multiple_writers"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ/main.cpp">
+			<Option target="occ_main"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ/occ.cpp">
+			<Option target="occ"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ/occ.h">
+			<Option target="occ"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_producer_consumer/reader.cpp">
+			<Option target="reader"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_producer_consumer/writer.cpp">
+			<Option target="writer"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/mrsw_semaphore.cpp">
+			<Option target="mrsw_semaphore"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_sleepmutex/sleepmutex.cpp">
+			<Option target="sleepmutex"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/semaphore.cpp">
+			<Option target="patterns"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/test_occ/test_occ.cpp">
+			<Option target="test_occ"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/app_memory_mapped_file/mmap_file.cpp">
+			<Option target="mmap_file"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/app_shared_memory/shared_memory.cpp">
+			<Option target="shared_memory"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_basics/main.cpp">
+			<Option target="multithreading_project"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_daytime/daytime_client.cpp">
+			<Option target="daytime_client"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_daytime/daytime_server.cpp">
+			<Option target="daytime_server"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/BoostDetectToolset-1.78.0.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/Boost-1.78.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\Boost-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/Boost-1.78.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\Boost-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/boost_headers-1.78.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\boost_headers-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/boost_headers-1.78.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\boost_headers-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/boost_thread-1.78.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\boost_thread-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/boost_thread-1.78.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\boost_thread-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/boost_thread-1.78.0/libboost_thread-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\boost_thread-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/stage/lib/cmake/boost_thread-1.78.0/libboost_thread-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\stage\lib\cmake\boost_thread-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/lib/cmake/BoostDetectToolset-1.78.0.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/lib/cmake/boost_unit_test_framework-1.78.0/boost_unit_test_framework-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\lib\cmake\boost_unit_test_framework-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/lib/cmake/boost_unit_test_framework-1.78.0/boost_unit_test_framework-config.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\lib\cmake\boost_unit_test_framework-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/lib/cmake/boost_unit_test_framework-1.78.0/libboost_unit_test_framework-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\lib\cmake\boost_unit_test_framework-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/../boost_1_78_0/lib/cmake/boost_unit_test_framework-1.78.0/libboost_unit_test_framework-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\boost_1_78_0\lib\cmake\boost_unit_test_framework-1.78.0\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\source\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_producer_consumer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\app_producer_consumer\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_monitor_mrsw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\app_monitor_mrsw\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_sleepmutex/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\app_sleepmutex\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_multiple_writers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\app_multiple_writers\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\app_semaphore_mrsw\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\app_occ\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/test_occ/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_concurrency_patterns\test_occ\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_ipc_primitives\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/app_shared_memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_ipc_primitives\app_shared_memory\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/app_memory_mapped_file/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_ipc_primitives\app_memory_mapped_file\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_multithreading_primitives\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_multithreading_primitives\app_basics\"/>
+		</Unit>
+		<Unit filename="/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_daytime/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\folder_multithreading_primitives\app_daytime\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_monitor_mrsw/monitor.cpp
+iostream
+-
+thread
+-
+vector
+-
+mutex
+-
+condition_variable
+-
+ctime
+-
+

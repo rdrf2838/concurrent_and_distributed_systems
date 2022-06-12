@@ -1,0 +1,2 @@
+add_subdirectory(app_shared_memory)
+add_subdirectory(app_memory_mapped_file)

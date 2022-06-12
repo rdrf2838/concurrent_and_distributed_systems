@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/mrsw_semaphore.dir/mrsw_semaphore.cpp.o -o mrsw_semaphore  ../source/libpatterns.a -pthread 

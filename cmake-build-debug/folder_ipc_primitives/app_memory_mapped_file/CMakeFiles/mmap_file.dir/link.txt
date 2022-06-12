@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/mmap_file.dir/mmap_file.cpp.o -o mmap_file  -lrt 

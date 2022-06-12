@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/source",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include -g -pthread -std=gnu++17 -o CMakeFiles/patterns.dir/semaphore.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/semaphore.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/semaphore.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/app_producer_consumer",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/boost_1_78_0 -g -pthread -std=gnu++17 -o CMakeFiles/writer.dir/writer.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_producer_consumer/writer.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_producer_consumer/writer.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/app_producer_consumer",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/boost_1_78_0 -g -pthread -std=gnu++17 -o CMakeFiles/reader.dir/reader.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_producer_consumer/reader.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_producer_consumer/reader.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/app_monitor_mrsw",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/boost_1_78_0 -g -pthread -std=gnu++17 -o CMakeFiles/monitor.dir/monitor.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_monitor_mrsw/monitor.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_monitor_mrsw/monitor.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/app_sleepmutex",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/boost_1_78_0 -g -pthread -std=gnu++17 -o CMakeFiles/sleepmutex.dir/sleepmutex.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_sleepmutex/sleepmutex.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_sleepmutex/sleepmutex.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/app_multiple_writers",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_multiple_writers/../include -I/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include -g -std=gnu++17 -o CMakeFiles/multiple_writers.dir/main_semaphore.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_multiple_writers/main_semaphore.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_multiple_writers/main_semaphore.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/app_semaphore_mrsw",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/../include -I/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/../include -g -std=gnu++17 -o CMakeFiles/mrsw_semaphore.dir/mrsw_semaphore.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/mrsw_semaphore.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/mrsw_semaphore.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/app_occ",
+  "command": "/bin/x86_64-linux-gnu-g++-10   -g -std=gnu++17 -o CMakeFiles/occ_main.dir/main.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ/main.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ/main.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/app_occ",
+  "command": "/bin/x86_64-linux-gnu-g++-10   -g -pthread -std=gnu++17 -o CMakeFiles/occ.dir/occ.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ/occ.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ/occ.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_concurrency_patterns/test_occ",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_occ -isystem /home/ivin/CLionProjects/boost_1_78_0 -isystem /home/ivin/CLionProjects/boost_1_78_0/include -g -fsanitize=address -std=gnu++17 -o CMakeFiles/test_occ.dir/test_occ.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/test_occ/test_occ.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/test_occ/test_occ.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_ipc_primitives/app_shared_memory",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/boost_1_78_0 -g -std=gnu++17 -o CMakeFiles/shared_memory.dir/shared_memory.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/app_shared_memory/shared_memory.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/app_shared_memory/shared_memory.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_ipc_primitives/app_memory_mapped_file",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/boost_1_78_0 -g -std=gnu++17 -o CMakeFiles/mmap_file.dir/mmap_file.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/app_memory_mapped_file/mmap_file.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_ipc_primitives/app_memory_mapped_file/mmap_file.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_multithreading_primitives/app_basics",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -isystem /home/ivin/CLionProjects/boost_1_78_0 -g -pthread -std=gnu++17 -o CMakeFiles/multithreading_project.dir/main.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_basics/main.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_basics/main.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_multithreading_primitives/app_daytime",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/boost_1_78_0 -g -pthread -std=gnu++17 -o CMakeFiles/daytime_server.dir/daytime_server.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_daytime/daytime_server.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_daytime/daytime_server.cpp"
+},
+{
+  "directory": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/build/folder_multithreading_primitives/app_daytime",
+  "command": "/bin/x86_64-linux-gnu-g++-10  -I/home/ivin/CLionProjects/boost_1_78_0 -g -pthread -std=gnu++17 -o CMakeFiles/daytime_client.dir/daytime_client.cpp.o -c /home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_daytime/daytime_client.cpp",
+  "file": "/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_multithreading_primitives/app_daytime/daytime_client.cpp"
+}
+]

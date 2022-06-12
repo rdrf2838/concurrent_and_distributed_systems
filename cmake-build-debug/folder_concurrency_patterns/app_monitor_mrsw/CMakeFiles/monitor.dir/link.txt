@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/monitor.dir/monitor.cpp.o -o monitor  -lrt -pthread 

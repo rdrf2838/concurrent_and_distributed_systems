@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/shared_memory.dir/shared_memory.cpp.o -o shared_memory  -lrt 

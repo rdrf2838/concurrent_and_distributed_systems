@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../folder_concurrency_patterns/include/patterns.hpp
+condition_variable
+-
+mutex
+-
+
+/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/semaphore.cpp
+patterns.hpp
+/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/source/patterns.hpp
+

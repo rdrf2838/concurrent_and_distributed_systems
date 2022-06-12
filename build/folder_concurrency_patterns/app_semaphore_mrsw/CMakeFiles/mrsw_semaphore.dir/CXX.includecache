@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../folder_concurrency_patterns/include/patterns.hpp
+condition_variable
+-
+mutex
+-
+
+/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/mrsw_semaphore.cpp
+iostream
+-
+thread
+-
+vector
+-
+patterns.hpp
+/home/ivin/CLionProjects/concurrent_and_distributed_systems/folder_concurrency_patterns/app_semaphore_mrsw/patterns.hpp
+

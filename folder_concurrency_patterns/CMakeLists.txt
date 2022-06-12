@@ -1,0 +1,9 @@
+add_subdirectory(source)
+
+add_subdirectory(app_producer_consumer)
+add_subdirectory(app_monitor_mrsw)
+add_subdirectory(app_sleepmutex)
+add_subdirectory(app_multiple_writers)
+add_subdirectory(app_semaphore_mrsw)
+add_subdirectory(app_occ)
+add_subdirectory(test_occ)

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/multiple_writers.dir/main_semaphore.cpp.o -o multiple_writers  ../source/libpatterns.a -pthread 

@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-10 -g CMakeFiles/writer.dir/writer.cpp.o -o writer  -lrt -pthread 
